@@ -6,8 +6,10 @@ Run either optimiseBad.bat or optimseDecent.bat depending on how bad you want/ne
 For best results make sure you also change these in-game settings:
 
 Post-Processing - Low
+
 Effect Quality - Best
 
 Credits:
 Me (batch script)
+
 fgcDraft on Gamebanana (potato mod .pak files)
