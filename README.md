@@ -2,7 +2,7 @@
 For those of you who wanna get into GGST but have absolutely garbage computers.
 
  
-Run either optimiseBad.bat or optimseDecent.bat depending on how bad you want/need the graphics to be. These scripts assume that GGST is installed in the C:\ drive, and will not work if it isn't (sorry).
+Run either optimiseWindows.bat if you're on Windows, or optimiseLinux.sh if you're on Linux. The scripts should guide you through installation. Please let me know if you encounter any issues.
 
 
 For best results make sure you also change these in-game settings:
