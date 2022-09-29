@@ -1,0 +1,6 @@
+Guity Gear -Strive- Optimiser release 2.0.0 changelog:
+
+-Added Linux support
+-Added configurable installation directories
+-Removed useless files
+-General quality additions
