@@ -61,3 +61,5 @@ copy ".\source\good.ini" "%LOCALAPPDATA%\GGST\Saved\Config\WindowsNoEditor\"
 rename "%LOCALAPPDATA%\GGST\Saved\Config\WindowsNoEditor\good.ini" "Scalability.ini"
 xcopy /s ".\source\~mods\" "%dirr%\common\GUILTY GEAR STRIVE\"
 echo Installation complete.
+@pause
+exit
