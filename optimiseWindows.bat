@@ -4,16 +4,16 @@ set unverum=
 set /p unverum=Welcome to the Guilty Gear -Strive- Optimiser! Would you like to use the Unverum mod manager for the pak mods? (Y/N):
 if not '%unverum%'=='' set unverum=%unverum:0,1%
 if '%unverum%'=='Y' goto uyes
-if '%directory%'=='y' goto uyes
-if '%directory%'=='yes' goto uyes
-if '%directory%'=='Yes' goto uyes
-if '%directory%'=='YES' goto uyes
-if '%directory%'=='N' goto uno
-if '%directory%'=='n' goto uno
-if '%directory%'=='no' goto uno
-if '%directory%'=='No' goto uno
-if '%directory%'=='NO' goto uno
-echo "%directory%" is not a valid response. Please try again.
+if '%unverum%'=='y' goto uyes
+if '%unverum%'=='yes' goto uyes
+if '%unverum%'=='Yes' goto uyes
+if '%unverum%'=='YES' goto uyes
+if '%unverum%'=='N' goto uno
+if '%unverum%'=='n' goto uno
+if '%unverum%'=='no' goto uno
+if '%unverum%'=='No' goto uno
+if '%unverum%'=='NO' goto uno
+echo "%unverum%" is not a valid response. Please try again.
 echo.
 goto start
 
@@ -29,7 +29,7 @@ exit
 :uno
 set dircheck=
 set /p dircheck=Is GGST installed in the default Steam directory (C:\Program Files (x86)\Steam\)? (Y/N):
-if not '%dircheck%'=='' set directory=%dircheck:~0,1%
+if not '%dircheck%'=='' set dircheck=%dircheck:~0,1%
 if '%dircheck%'=='Y' goto yes
 if '%dircheck%'=='y' goto yes
 if '%dircheck%'=='yes' goto yes
