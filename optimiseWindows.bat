@@ -48,7 +48,7 @@ goto uno
 rename "%LOCALAPPDATA%\GGST\Saved\Config\WindowsNoEditor\Scalability.ini" "Scalability.ini.bak"
 copy ".\source\good.ini" "%LOCALAPPDATA%\GGST\Saved\Config\WindowsNoEditor\"
 rename "%LOCALAPPDATA%\GGST\Saved\Config\WindowsNoEditor\good.ini" "Scalability.ini"
-xcopy /s ".\source\~mods\" "%PROGRAMFILES(X86)%\Steam\steamapps\common\GUILTY GEAR STRIVE\"
+xcopy /s ".\source\~mods\" "%PROGRAMFILES(X86)%\Steam\steamapps\common\GUILTY GEAR STRIVE\RED\Content\Paks"
 echo Installation complete.
 @pause
 exit
@@ -59,7 +59,7 @@ set /p dirr=Please input the full file path to your Steam library (e.g. steamapp
 rename "%LOCALAPPDATA%\GGST\Saved\Config\WindowsNoEditor\Scalability.ini" "Scalability.ini.bak"
 copy ".\source\good.ini" "%LOCALAPPDATA%\GGST\Saved\Config\WindowsNoEditor\"
 rename "%LOCALAPPDATA%\GGST\Saved\Config\WindowsNoEditor\good.ini" "Scalability.ini"
-xcopy /s ".\source\~mods\" "%dirr%\common\GUILTY GEAR STRIVE\"
+xcopy /s ".\source\~mods\" "%dirr%\common\GUILTY GEAR STRIVE\RED\Content\Paks"
 echo Installation complete.
 @pause
 exit
