@@ -2,7 +2,7 @@
 :start
 set unverum=
 set /p unverum=Welcome to the Guilty Gear -Strive- Optimiser! Would you like to use the Unverum mod manager for the pak mods? (Y/N):
-if not '%unverum%'=='' set unverum=%unverum:0,1%
+if not '%unverum%'=='' set unverum=%unverum:~0,1%
 if '%unverum%'=='Y' goto uyes
 if '%unverum%'=='y' goto uyes
 if '%unverum%'=='yes' goto uyes
